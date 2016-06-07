@@ -5,4 +5,5 @@ ssh -T app@192.168.10.10 <<EOF
   npm install --production
   forever restartall
   exit
+  
 EOF
