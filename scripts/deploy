@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh -T root@192.168.10.10 <<EOF
+ssh -T vagrant@192.168.10.10 <<EOF
   cd ~/jenkins
   git pull
   npm install --production
