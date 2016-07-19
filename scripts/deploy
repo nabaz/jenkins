@@ -1,4 +1,4 @@
-asdas#!/bin/sh
+#!/bin/sh
 ssh -T vagrant@192.168.10.10 <<EOF
   cd ~/jenkins
   git pull
